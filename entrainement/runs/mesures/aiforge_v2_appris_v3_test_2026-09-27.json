@@ -1,0 +1,646 @@
+{
+  "date": "2026-09-27",
+  "jeu": {
+    "depot": "Scam-AI/AIForge-Doc-v2",
+    "revision": "1c42e42824918836255f6d9c604c9bc78ead6e08",
+    "split": "TestingSet"
+  },
+  "commit": "624cc47ff1a9438c6547bf3b07b2582a05c1c481",
+  "modele": "reseau_v3.pt",
+  "reseau_sha256": "f371c52ec2a2b18bd55b4bc98eb76d35080f04fcd6d084da0918a18e09859144",
+  "seuils_geles": {
+    "natif_png": {
+      "score": "haut16",
+      "seuil": 6.569427491234375
+    },
+    "natif_j85": {
+      "score": "haut16",
+      "seuil": 6.223718644188477
+    },
+    "demi_png": {
+      "score": "contraste",
+      "seuil": 14.45197582344873
+    }
+  },
+  "populations": {
+    "appariee": {
+      "natif_png": {
+        "predictions_sha256": "514b13f02ecaac5083bb55de125735ef01c08ef78dbea4c3a1d0722d76aeb941",
+        "cle_sha256": "8d2d9c87033b0bfe60e05cebae13644834410204ef3b44624250d182a36d6e6b",
+        "cord": {
+          "rappel": {
+            "succes": 186,
+            "total": 197,
+            "taux": 0.9442,
+            "ic95": [
+              0.9028,
+              0.9685
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 186,
+            "total": 197,
+            "taux": 0.9442,
+            "ic95": [
+              0.9028,
+              0.9685
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 3,
+            "total": 197,
+            "taux": 0.0152,
+            "ic95": [
+              0.0052,
+              0.0438
+            ]
+          }
+        },
+        "sroie": {
+          "rappel": {
+            "succes": 64,
+            "total": 65,
+            "taux": 0.9846,
+            "ic95": [
+              0.9179,
+              0.9973
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 64,
+            "total": 65,
+            "taux": 0.9846,
+            "ic95": [
+              0.9179,
+              0.9973
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 65,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.0558
+            ]
+          }
+        },
+        "toutes": {
+          "rappel": {
+            "succes": 564,
+            "total": 612,
+            "taux": 0.9216,
+            "ic95": [
+              0.8975,
+              0.9403
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 564,
+            "total": 612,
+            "taux": 0.9216,
+            "ic95": [
+              0.8975,
+              0.9403
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 5,
+            "total": 612,
+            "taux": 0.0082,
+            "ic95": [
+              0.0035,
+              0.019
+            ]
+          }
+        },
+        "wildreceipt": {
+          "rappel": {
+            "succes": 239,
+            "total": 267,
+            "taux": 0.8951,
+            "ic95": [
+              0.8526,
+              0.9264
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 239,
+            "total": 267,
+            "taux": 0.8951,
+            "ic95": [
+              0.8526,
+              0.9264
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 2,
+            "total": 267,
+            "taux": 0.0075,
+            "ic95": [
+              0.0021,
+              0.0269
+            ]
+          }
+        },
+        "xfund": {
+          "rappel": {
+            "succes": 75,
+            "total": 83,
+            "taux": 0.9036,
+            "ic95": [
+              0.8212,
+              0.9503
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 75,
+            "total": 83,
+            "taux": 0.9036,
+            "ic95": [
+              0.8212,
+              0.9503
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 83,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.0442
+            ]
+          }
+        }
+      },
+      "natif_j85": {
+        "predictions_sha256": "ec50f3a1285877bc2c37ce131077025da778bf3d8da82c72bc989c0d7895b596",
+        "cle_sha256": "016d559e6fe8d6994d3f8730c77a02d82659edad3a5f46d84ab7a7626b18ebf8",
+        "cord": {
+          "rappel": {
+            "succes": 150,
+            "total": 197,
+            "taux": 0.7614,
+            "ic95": [
+              0.6973,
+              0.8156
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 147,
+            "total": 197,
+            "taux": 0.7462,
+            "ic95": [
+              0.6811,
+              0.8019
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 6,
+            "total": 197,
+            "taux": 0.0305,
+            "ic95": [
+              0.014,
+              0.0648
+            ]
+          }
+        },
+        "sroie": {
+          "rappel": {
+            "succes": 62,
+            "total": 65,
+            "taux": 0.9538,
+            "ic95": [
+              0.8729,
+              0.9842
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 62,
+            "total": 65,
+            "taux": 0.9538,
+            "ic95": [
+              0.8729,
+              0.9842
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 65,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.0558
+            ]
+          }
+        },
+        "toutes": {
+          "rappel": {
+            "succes": 493,
+            "total": 612,
+            "taux": 0.8056,
+            "ic95": [
+              0.7723,
+              0.835
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 488,
+            "total": 612,
+            "taux": 0.7974,
+            "ic95": [
+              0.7637,
+              0.8273
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 11,
+            "total": 612,
+            "taux": 0.018,
+            "ic95": [
+              0.0101,
+              0.0319
+            ]
+          }
+        },
+        "wildreceipt": {
+          "rappel": {
+            "succes": 220,
+            "total": 267,
+            "taux": 0.824,
+            "ic95": [
+              0.7738,
+              0.865
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 219,
+            "total": 267,
+            "taux": 0.8202,
+            "ic95": [
+              0.7697,
+              0.8616
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 4,
+            "total": 267,
+            "taux": 0.015,
+            "ic95": [
+              0.0058,
+              0.0379
+            ]
+          }
+        },
+        "xfund": {
+          "rappel": {
+            "succes": 61,
+            "total": 83,
+            "taux": 0.7349,
+            "ic95": [
+              0.6311,
+              0.818
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 60,
+            "total": 83,
+            "taux": 0.7229,
+            "ic95": [
+              0.6184,
+              0.8077
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 1,
+            "total": 83,
+            "taux": 0.012,
+            "ic95": [
+              0.0021,
+              0.0651
+            ]
+          }
+        }
+      },
+      "demi_png": {
+        "predictions_sha256": "96f41d5c49a7835d7b477412f42053fea457451a065f94c841ccc1f3ca6ff1a5",
+        "cle_sha256": "8d2d9c87033b0bfe60e05cebae13644834410204ef3b44624250d182a36d6e6b",
+        "cord": {
+          "rappel": {
+            "succes": 94,
+            "total": 197,
+            "taux": 0.4772,
+            "ic95": [
+              0.4085,
+              0.5467
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 94,
+            "total": 197,
+            "taux": 0.4772,
+            "ic95": [
+              0.4085,
+              0.5467
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 5,
+            "total": 197,
+            "taux": 0.0254,
+            "ic95": [
+              0.0109,
+              0.058
+            ]
+          }
+        },
+        "sroie": {
+          "rappel": {
+            "succes": 15,
+            "total": 65,
+            "taux": 0.2308,
+            "ic95": [
+              0.1451,
+              0.3464
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 15,
+            "total": 65,
+            "taux": 0.2308,
+            "ic95": [
+              0.1451,
+              0.3464
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 65,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.0558
+            ]
+          }
+        },
+        "toutes": {
+          "rappel": {
+            "succes": 151,
+            "total": 612,
+            "taux": 0.2467,
+            "ic95": [
+              0.2142,
+              0.2824
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 149,
+            "total": 612,
+            "taux": 0.2435,
+            "ic95": [
+              0.2111,
+              0.279
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 8,
+            "total": 612,
+            "taux": 0.0131,
+            "ic95": [
+              0.0066,
+              0.0256
+            ]
+          }
+        },
+        "wildreceipt": {
+          "rappel": {
+            "succes": 39,
+            "total": 267,
+            "taux": 0.1461,
+            "ic95": [
+              0.1087,
+              0.1934
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 38,
+            "total": 267,
+            "taux": 0.1423,
+            "ic95": [
+              0.1055,
+              0.1893
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 2,
+            "total": 267,
+            "taux": 0.0075,
+            "ic95": [
+              0.0021,
+              0.0269
+            ]
+          }
+        },
+        "xfund": {
+          "rappel": {
+            "succes": 3,
+            "total": 83,
+            "taux": 0.0361,
+            "ic95": [
+              0.0124,
+              0.101
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 2,
+            "total": 83,
+            "taux": 0.0241,
+            "ic95": [
+              0.0066,
+              0.0837
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 1,
+            "total": 83,
+            "taux": 0.012,
+            "ic95": [
+              0.0021,
+              0.0651
+            ]
+          }
+        }
+      }
+    },
+    "non_appariee": {
+      "natif_png": {
+        "predictions_sha256": "00c037a660e9f7fbb9716e7506912d8297855bcfae95c92690763baee5435686",
+        "cle_sha256": "851d098440a90b64f078e8c5cf1798807baec46661fadd0da4debf4db3b7d23a",
+        "sroie": {
+          "rappel": {
+            "succes": 1,
+            "total": 1,
+            "taux": 1.0,
+            "ic95": [
+              0.2065,
+              1.0
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 1,
+            "total": 1,
+            "taux": 1.0,
+            "ic95": [
+              0.2065,
+              1.0
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 0,
+            "taux": null,
+            "ic95": null
+          }
+        },
+        "toutes": {
+          "rappel": {
+            "succes": 1,
+            "total": 1,
+            "taux": 1.0,
+            "ic95": [
+              0.2065,
+              1.0
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 1,
+            "total": 1,
+            "taux": 1.0,
+            "ic95": [
+              0.2065,
+              1.0
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 0,
+            "taux": null,
+            "ic95": null
+          }
+        }
+      },
+      "natif_j85": {
+        "predictions_sha256": "8e8e26ede616618223e7dcad8f394590e535b7d95591b7347ec0736baac22769",
+        "cle_sha256": "01e8217cc1eaff5409133057d799ab9ef66d7070beb95fc7db407b4a9ff15748",
+        "sroie": {
+          "rappel": {
+            "succes": 0,
+            "total": 1,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.7935
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 0,
+            "total": 1,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.7935
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 0,
+            "taux": null,
+            "ic95": null
+          }
+        },
+        "toutes": {
+          "rappel": {
+            "succes": 0,
+            "total": 1,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.7935
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 0,
+            "total": 1,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.7935
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 0,
+            "taux": null,
+            "ic95": null
+          }
+        }
+      },
+      "demi_png": {
+        "predictions_sha256": "f5b5f85cb33bd66996e62f5a4965520392e6c52d8f2158586dd4f167983940fb",
+        "cle_sha256": "851d098440a90b64f078e8c5cf1798807baec46661fadd0da4debf4db3b7d23a",
+        "sroie": {
+          "rappel": {
+            "succes": 0,
+            "total": 1,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.7935
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 0,
+            "total": 1,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.7935
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 0,
+            "taux": null,
+            "ic95": null
+          }
+        },
+        "toutes": {
+          "rappel": {
+            "succes": 0,
+            "total": 1,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.7935
+            ]
+          },
+          "rappel_zone_juste": {
+            "succes": 0,
+            "total": 1,
+            "taux": 0.0,
+            "ic95": [
+              0.0,
+              0.7935
+            ]
+          },
+          "fausse_alerte": {
+            "succes": 0,
+            "total": 0,
+            "taux": null,
+            "ic95": null
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+Copyright (c) 2026 Billel Helali
+
+The code, the network weights, the identifier lists and the reports in this repository are
+licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+License (CC BY-NC-SA 4.0).
+
+You may share and adapt this material for non-commercial purposes, provided that you give
+appropriate credit, indicate if changes were made, and distribute your contributions under
+the same license.
+
+Full legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The network weights were trained on AIForge-Doc v2 (Scam-AI/AIForge-Doc-v2), which is itself
+licensed under CC BY-NC-SA 4.0. No image of the dataset is distributed here.
+
+THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

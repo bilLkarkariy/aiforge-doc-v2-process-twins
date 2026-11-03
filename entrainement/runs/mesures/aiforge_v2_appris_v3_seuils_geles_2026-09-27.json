@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-27",
+  "passage_test": "deuxieme passage sur TEST, annonce : le premier (v2, 81ee50b) a deja ete publie",
+  "modele": "reseau_v3.pt",
+  "reseau_sha256": "f371c52ec2a2b18bd55b4bc98eb76d35080f04fcd6d084da0918a18e09859144",
+  "regle_de_choix": "fixee avant lecture : par trajet, le score de page (brut ou retourne ; pic, contraste, z, haut16) qui maximise les faux detectes de la reserve TRAINING avec au plus 0,5 % des originaux de la reserve au-dessus du seuil",
+  "seuils": {
+    "natif_png": {
+      "score": "haut16",
+      "seuil": 6.569427491234375
+    },
+    "natif_j85": {
+      "score": "haut16",
+      "seuil": 6.223718644188477
+    },
+    "demi_png": {
+      "score": "contraste",
+      "seuil": 14.45197582344873
+    }
+  },
+  "reserve_training": {
+    "natif_png": {
+      "rappel": 483,
+      "fausse_alerte": 2,
+      "paires": 522
+    },
+    "natif_j85": {
+      "rappel": 436,
+      "fausse_alerte": 2,
+      "paires": 522
+    },
+    "demi_png": {
+      "rappel": 129,
+      "fausse_alerte": 2,
+      "paires": 522
+    }
+  },
+  "entrainement": {
+    "depart": "reseau_v2.pt",
+    "iterations": 12000,
+    "lot": 48,
+    "lr": 0.001,
+    "poids_vignette": 0.5,
+    "poids_trajets": [
+      1,
+      1.5,
+      2
+    ],
+    "vignettes": "vignettes_v3.npz (n_masque 3, n_hasard 2, petits patchs < 2000 px doubles), 64898 vignettes",
+    "paires_apprentissage": 1928,
+    "paires_reserve": 522
+  }
+}

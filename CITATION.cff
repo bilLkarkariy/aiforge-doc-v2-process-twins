@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, these weights or the process-twin control, please cite the paper."
+title: "Beyond Zero-Shot on AIForge-Doc v2: A Trained Detector and a Process-Twin Control"
+type: software
+authors:
+  - family-names: Helali
+    given-names: Billel
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/bilLkarkariy/aiforge-doc-v2-process-twins"
+date-released: 2026-11-03
+version: "1.0"
+keywords:
+  - document forensics
+  - image forgery detection
+  - AIForge-Doc
+  - benchmark controls
+preferred-citation:
+  type: article
+  title: "Beyond Zero-Shot on AIForge-Doc v2: A Trained Detector and a Process-Twin Control"
+  authors:
+    - family-names: Helali
+      given-names: Billel
+  year: 2026

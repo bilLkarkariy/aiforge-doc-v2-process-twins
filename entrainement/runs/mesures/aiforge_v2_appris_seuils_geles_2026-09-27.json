@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-27",
+  "modele": "reseau_v2.pt",
+  "reseau_sha256": "8a0785ec9360632ac7fccc12f37620844564a217db0342bcab52acffa94d0d66",
+  "regle": "seuil = plus petit score laissant au plus 0,5 % des originaux de la reserve TRAINING au-dessus",
+  "seuils": {
+    "natif_png": 0.9998341069946289,
+    "natif_j85": 0.9998254643211365,
+    "demi_png": 0.9996206031570435
+  },
+  "reserve_training": {
+    "natif_png": {
+      "rappel": 418,
+      "fausse_alerte": 2,
+      "paires": 522
+    },
+    "natif_j85": {
+      "rappel": 326,
+      "fausse_alerte": 2,
+      "paires": 522
+    },
+    "demi_png": {
+      "rappel": 44,
+      "fausse_alerte": 2,
+      "paires": 522
+    }
+  },
+  "entrainement": {
+    "iterations": 12000,
+    "lot": 48,
+    "poids_trajets": [
+      1,
+      1.5,
+      2
+    ],
+    "paires_apprentissage": 1928,
+    "paires_reserve": 522
+  }
+}

@@ -81,7 +81,8 @@ frozen predictions come from the data directory of the runs. `README.md`, `LICEN
   day. Two device options were committed during the run: training on an Apple GPU in `d044fdc`,
   after N2's training had started, and scoring on it in `9f514b2`, after the reserve scoring
   had started. The training code is the same in both commits.
-- **Twins.** They were built the same evening, from code committed minutes later in `daa3b8b`;
+- **Twins.** They were built the same evening, from code committed right after sealing, in
+  `daa3b8b` (8 seconds after the seal's timestamp);
   the sealed list records the parent commit, `4695873`. The twin functions are identical in
   `daa3b8b`, in the later twin-pass commit `1946fd8` and in this release.
 - **Twin pass, 2 November.** It ran the detector script at a later version, which adds a

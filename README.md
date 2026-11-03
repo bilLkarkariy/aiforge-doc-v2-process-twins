@@ -3,6 +3,10 @@
 Code, weights, identifier lists and frozen predictions for the paper *Beyond Zero-Shot on
 AIForge-Doc v2: A Trained Detector and a Process-Twin Control* (Billel Helali, 2026).
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23917285.svg)](https://doi.org/10.5281/zenodo.23917285)
+Release v1.0 is archived on Zenodo as [10.5281/zenodo.23917285](https://doi.org/10.5281/zenodo.23917285);
+the DOI for all versions is [10.5281/zenodo.23917284](https://doi.org/10.5281/zenodo.23917284).
+
 All published results on [AIForge-Doc v2](https://huggingface.co/datasets/Scam-AI/AIForge-Doc-v2)
 are zero-shot and close to chance (best AUC 0.599). A compact fully-convolutional network
 (371,617 parameters), trained on the official TRAINING split, reaches an AUC of 0.989 on the
@@ -243,5 +247,15 @@ research artefacts trained on AIForge-Doc v2 and are not part of any commercial 
   title  = {Beyond Zero-Shot on {AIForge-Doc} v2: A Trained Detector and a Process-Twin Control},
   year   = {2026},
   note   = {Preprint}
+}
+
+@software{helali2026twins_v1,
+  author    = {Helali, Billel},
+  title     = {Code, weights and frozen predictions for ``Beyond Zero-Shot on {AIForge-Doc} v2''},
+  year      = {2026},
+  version   = {v1.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23917285},
+  url       = {https://doi.org/10.5281/zenodo.23917285}
 }
 ```
